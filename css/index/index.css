@@ -1,0 +1,26 @@
+#principal-pesquisa {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+#pesquisa {
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+#botao-pesquisa {
+    padding: 8px;
+    border-radius: 8px;
+}
+#botao-pesquisa:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+    color: rgb(220, 220, 220);
+}
+#compra-filtro-pesquisa {
+    margin-right: 20px;
+}
+.titulo-radial {
+    font-size: 18px;
+}

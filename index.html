@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCV</title>
+    <link rel="stylesheet" href="css/geral/geral.css">
+    <link rel="stylesheet" href="css/geral/menu.css">
+    <link rel="stylesheet" href="css/index/index.css">
+</head>
+<body>
+    <header id="cabecalho-geral">
+        <h1 id="titulo-geral">Gerenciador de compras e vendas</h1>
+        <div id="menu-geral">
+            <a href="/">Adicionar Compra</a>
+            <a href="/">Adicionar Venda</a>
+            <a href="/">Configuracoes</a>
+        </div>
+    </header>
+    <section id="principal-pesquisa">
+        <div id="inputs-pesquisa">
+            <form>
+               <input type="search" name="pesquisa" id="pesquisa" placeholder="Digite aqui..."> 
+               <input type="submit" value="Pesquisar" id="botao-pesquisa">
+               <br>
+               <label for="compra" class="titulo-radial">Compra</label>
+               <input type="radio" name="tipo_pesquisa" id="compra-filtro-pesquisa">
+               
+               <label for="venda" class="titulo-radial">Venda</label>
+               <input type="radio" name="tipo_pesquisa" id="venda-filtro-pesquisa" checked>
+            </form>
+        </div>
+        <div id="resultado">resultado</div>
+    </section>
+</body>
+</html>
